@@ -1,0 +1,42 @@
+/*学习建议*/
+/*选修课程推荐指数*/
+#text1,
+#text2 {
+  padding-top: 50rpx;
+  color: #fff;
+  position: relative;
+  z-index: 100;
+  font-size: 30rpx;
+}
+
+#img-title {
+  position: relative;
+  top: -70rpx;
+  left: calc(50% - 250rpx);
+  width: 500rpx;
+  height: 100rpx;
+  z-index: 10;
+}
+
+#rate-box {
+  background: #fff;
+  border-radius: 15rpx;
+  width: 80%;
+  margin: 0 5%;
+  padding: 80rpx 5% 80rpx 5%;
+  position: relative;
+  top: -130rpx;
+  z-index: 1;
+}
+
+#rate-box>view {
+  border-bottom: 1rpx solid #f0f0f0;
+  height: 100rpx;
+  line-height: 100rpx;
+  /* padding: 25rpx 0; */
+  font-size: small;
+}
+
+#rate-box>view:last-child {
+  border: 0;
+}

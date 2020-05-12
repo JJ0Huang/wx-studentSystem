@@ -1,0 +1,13 @@
+@import '../../style/exceAndTips.wxss';
+
+#rate-box view>text {
+  display: inline-block;
+  width: 100rpx;
+  /* color: #666; */
+}
+
+#rate-box .progress {
+  margin: 0 30rpx;
+  display: inline-block;
+  width: 400rpx;
+}

@@ -1,0 +1,13 @@
+@import '../../style/exceAndTips.wxss';
+
+#rate-box view text {
+  display: inline-block;
+  width: 190rpx;
+  /* background: #999; */
+  margin-right: 40rpx;
+}
+
+#rate-box view view {
+  /* background: #ccc; */
+  margin: 0 7rpx;
+}

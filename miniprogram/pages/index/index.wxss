@@ -1,0 +1,28 @@
+.container {
+  padding: 0 8%;
+}
+
+#logo {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 8vh;
+}
+
+#desc {
+  font-size: 30rpx;
+  color: #4a4a4a;
+  margin:3vh 0 12vh 0;
+}
+
+#btn-login{
+  margin-top: 60rpx;
+}
+
+#footer{
+  margin-top: 40rpx;
+  font-size: 26rpx;
+}
+#footer view{
+  width: 40%;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+<view class="orange-r bg-round"></view>
+<view class="bg"></view>
+<view class="row" id="text1">学习建议</view>
+<view class="row" id="text2">选修课推荐指数</view>
+<image id="img-title" src="../../images/title.png"></image>
+<view id="rate-box">
+	<view>
+		<text>Java</text>
+		<van-rate value="{{ 2.5 }}" size="{{ 18 }}" allow-half color="#f86762" void-color="#eee" void-icon="star" bind:change="onChange" />
+	</view>
+	<view>
+		<text>计算机网络</text>
+		<van-rate value="{{ 4.7 }}" size="{{ 18 }}" allow-half color="#f86762" void-color="#eee" void-icon="star" bind:change="onChange" />
+	</view>
+	<view>
+		<text>图像处理</text>
+		<van-rate value="{{ 3 }}" size="{{ 18 }}" allow-half color="#f86762" void-color="#eee" void-icon="star" bind:change="onChange" />
+	</view>
+</view>

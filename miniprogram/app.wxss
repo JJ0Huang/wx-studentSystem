@@ -1,0 +1,66 @@
+view {
+  color: #333;
+}
+
+/*
+  排版布局
+*/
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*
+*背景颜色
+*/
+.orange-r {
+  background: linear-gradient(to right, #fc6c23, #fad761);
+}
+
+.orange {
+  background: linear-gradient(#fad761, #fc6c23);
+}
+
+.purple-r {
+  background: linear-gradient(to right,#291f82, #d0b4d8);
+}
+
+/*
+  背景样式
+*/
+.bg-round {
+  height: 200vh;
+  border-bottom-left-radius: calc(2800rpx / 2);
+  border-bottom-right-radius: calc(2800rpx / 2);
+  text-align: center;
+  width: 2800rpx;
+  position: absolute;
+  left: calc(50% - calc(2800rpx / 2));
+  top: calc(300rpx - 200vh);
+  z-index: 1;
+}
+.bg{
+  width: 100vw;
+  height: 100%;
+  background: #f6f7f9;
+  position: absolute;
+  z-index: -1;
+}
+
+/*
+  按钮样式
+*/
+.btn {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+}

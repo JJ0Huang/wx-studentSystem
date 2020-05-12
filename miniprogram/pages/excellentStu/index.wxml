@@ -1,0 +1,22 @@
+<view class="purple-r bg-round"></view>
+<view class="bg"></view>
+<view class="row" id="text1">优秀师兄师姐</view>
+<view class="row" id="text2">能力相似度</view>
+<image id="img-title" src="../../images/title.png"></image>
+<view id="rate-box">
+	<view>
+		<text>A类能力</text>
+		<van-progress custom-class="progress" percentage="85" stroke-width="16" />
+		<van-icon name="arrow" />
+	</view>
+	<view>
+		<text>B类能力</text>
+		<van-progress custom-class="progress" percentage="50" stroke-width="16" />
+		<van-icon name="arrow" />
+	</view>
+	<view>
+		<text>C类能力</text>
+		<van-progress custom-class="progress" percentage="70" stroke-width="16" />
+		<van-icon name="arrow" />
+	</view>
+</view>

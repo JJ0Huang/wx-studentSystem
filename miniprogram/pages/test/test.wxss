@@ -1,0 +1,4 @@
+.canvas-box{
+  width: 600rpx;
+  height: 400rpx;
+}

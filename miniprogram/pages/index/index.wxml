@@ -1,0 +1,15 @@
+<view class="container">
+	<view class="row" id="logo">LOGO</view>
+	<view class="row" id="desc">个性化教学推荐，做最好的自己</view>
+	<view>
+		<van-cell-group>
+			<van-field value="{{ username }}" clearable label="账号" placeholder="请输入用户名" bind:click-icon="onClickIcon" />
+			<van-field value="{{ password }}" type="{{pswType}}" label="密码" placeholder="请输入密码" border="{{ false }}" icon="{{pswIcon}}" bind:click-icon="pswVisiable" />
+		</van-cell-group>
+	</view>
+	<button class="orange-r btn" id="btn-login" bindtap="login">登录</button>
+	<view class="row" id="footer">
+		<view>忘记密码</view>
+		<view>注册账号</view>
+	</view>
+</view>

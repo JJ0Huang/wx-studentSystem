@@ -1,0 +1,17 @@
+<view class="orange" id="box-stuInfo">
+	<view id="stu-img">
+		<van-image round width="200rpx" height="200rpx" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+	</view>
+	<view id="text-box">
+		<text>A: 85</text>
+		<text>B: 20</text>
+		<text>C: 35</text>
+		<text>D: 55</text>
+		<text>E: 40</text>
+	</view>
+	<canvas class="canvas-box" canvas-id="chart"></canvas>
+</view>
+<view id="menu">
+	<van-cell icon="../../../../images/study.png" is-link title="学习建议" link-type="navigateTo" url="/pages/studyTips/index" />
+	<van-cell icon="../../../../images/great.png" is-link title="优秀师兄师姐" link-type="navigateTo" url="/pages/excellentStu/index" />
+</view>

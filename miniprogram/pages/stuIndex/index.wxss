@@ -1,0 +1,35 @@
+#box-stuInfo{
+  height: 500rpx;
+}
+#menu{
+  position: relative;
+  top: -80rpx;
+}
+#stu-img{
+  position: relative;
+  padding-top: 50rpx;
+  padding-left: 70rpx;
+}
+#text-box{
+  width: 350rpx;
+  height: 120rpx;
+  /* border: 1rpx solid #000; */
+  font-size: x-small;
+  color: #fff;
+  position: relative;
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+#text-box>text{
+  float: left;
+  width: 100rpx;
+  /* background: #ccc; */
+  margin: 5rpx;
+}
+.canvas-box{
+  width: 340rpx;
+  height: 500rpx;
+  position: absolute;
+  top: 60rpx;
+  right: 0;
+}
