@@ -3,11 +3,11 @@
 		<van-image round width="200rpx" height="200rpx" src="https://img.yzcdn.cn/vant/cat.jpeg" />
 	</view>
 	<view id="text-box">
-		<text>A: 85</text>
-		<text>B: 20</text>
-		<text>C: 35</text>
-		<text>D: 55</text>
-		<text>E: 40</text>
+		<text>A: {{powerData[0]}}</text>
+		<text>B: {{powerData[1]}}</text>
+		<text>C: {{powerData[2]}}</text>
+		<text>D: {{powerData[3]}}</text>
+		<text>E: {{powerData[4]}}</text>
 	</view>
 	<canvas class="canvas-box" canvas-id="chart"></canvas>
 </view>
